@@ -15,7 +15,7 @@ jobs:
        - uses: nttld/setup-ndk@v1
          with:
             ndk-version: r25b
-            local-cache: 
+            local-cache: true
        - name: set up JDK 11
          uses: actions/setup-java@v3
          with:
